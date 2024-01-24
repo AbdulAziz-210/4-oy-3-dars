@@ -239,29 +239,59 @@
 
 
 
-//Chat gpt 5-masala
+//Chat gpt 5-masala Original
 
 
-// Foydalanuvchidan 3 xonali son olish
-let son = prompt("Iltimos, 3 xonali son kiriting:");
-son = parseInt(son);
+// // Foydalanuvchidan 3 xonali son olish
+// let son = prompt("Iltimos, 3 xonali son kiriting:");
+// son = parseInt(son);
 
-// Sonni kichik raqamini topish
-let kichikRaqam = Math.min(
-  Math.floor((son % 100) / 10), 
-  // onliklar xonasidagi raqam
-  son % 10 
-  // birliklar xonasidagi raqam
-);
+// // Sonni kichik raqamini topish
+// let kichikRaqam = Math.min(
+//   Math.floor((son % 100) / 10), 
+//   // onliklar xonasidagi raqam
+//   son % 10 
+//   // birliklar xonasidagi raqam
+// );
 
-console.log("Kichik raqam: ", kichikRaqam);
-
-
-
+// console.log("Kichik raqam: ", kichikRaqam);
 
 
 
 
+// 6-masala
+
+
+// // Foydalanuvchidan uch xonali son olish
+// let son = prompt("Iltimos, uch xonali son kiriting:");
+// son = parseInt(son);
+
+// // O'nliklar xonasidagi raqamni topish
+// let onliklarRaqami = Math.floor((son % 100) / 10);
+
+// console.log("O'nliklar xonasidagi raqam: ", onliklarRaqami);
+
+
+
+// 9-masala
+
+
+// // Foydalanuvchidan ixtiyoriy son olish
+// let son = prompt("Iltimos, ixtiyoriy son kiriting:");
+// son = parseFloat(son);
+
+// // Sonni tekshirish
+// if (isNaN(son)) {
+//     console.log("Bu son emas");
+// } else {
+//     // Juft yoki toq
+//     let juftYokiToq = (son % 2 === 0) ? "Juft" : "Toq";
+
+//     // Musbat yoki manfiy
+//     let musbatYokiManfiy = (son >= 0) ? "Musbat" : "Manfiy";
+
+//     console.log(`${son} - ${juftYokiToq} ${musbatYokiManfiy}`);
+// }
 
 
 
