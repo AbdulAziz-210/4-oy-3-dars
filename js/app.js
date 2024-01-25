@@ -110,43 +110,6 @@
 
 
 
-
-// let a = prompt('a ni qiymatini kiriting:');
-// let b = prompt('b ni qiymatini kiriting:');
-// let c = prompt('b ni qiymatini kiriting:');
-
-// let res = ''
-// if(a < b && a < c){
-//     res +=String(a)
-    
-//     if(b < c) res +=String(b) + String(c)
-//     else res +=String(c) + String(b)
-// }
-// else if(b < a && b < c) {
-//     res +=String(b)
-    
-//     if(a < c) res +=String(a) + String(c)
-//     else res +=String(c) + String(a)
-// }
-// else {
-//     res +=String(c)
-    
-//     if(a < b) res += String(a) + String(b)
-//     else res +=String(b) + String(a) 
-// }
-
-
-// console.log(res)
-
-
-
-
-
-
-
-
-
-
 // let a = prompt('a ni qiymatini kiriting:');
 // let b = prompt('b ni qiymatini kiriting:');
 // let c = prompt('b ni qiymatini kiriting:');
@@ -179,68 +142,7 @@
 
 
 
-
-
-
-// 5-masala\\\
-
-// let elNumber = prompt("Uch xonali son kiriting")
-
-
-
-// function kichikSon(toplamSon) {
-//     var birinchiRaqam = Math.floor(toplamSon / 100);
-//     var ikkinchiRaqam = Math.floor((toplamSon % 100) / 10);
-//     var uchinchiRaqam = toplamSon % 10;
-    
-//     var kichikRaqam = Math.min(birinchiRaqam, ikkinchiRaqam, uchinchiRaqam);
-//     return kichikRaqam;
-//   }
-  
-//   var son = 345;
-//   var kichik = kichikSon(son);
-//   console.log(kichik);
-
-
-
-//Poe
-
-
-// var son = prompt("Uch xonali son kiriting:");
-// son = parseInt(son); // prompt() orqali kiritilgan qiymatni son tipiga o'girish
-
-// var birinchiRaqam = Math.floor(son / 100);
-// var ikkinchiRaqam = Math.floor((son % 100) / 10);
-// var uchinchiRaqam = son % 10;
-
-// var kichikRaqam = Math.min(birinchiRaqam, ikkinchiRaqam, uchinchiRaqam);
-// console.log(kichikRaqam); // Konsolga kichik raqamni chiqaradi
-
-
-
-//ChatGpT
-
-
-// // Uch xonali sonlarni olish va o'sish tartibida sort qilish (for ishlamaydi)
-// let sonlar = [];
-
-// // Uchta sonni olish
-// let son1 = parseInt(prompt("Iltimos, birinchi sonni kiriting:"));
-// let son2 = parseInt(prompt("Iltimos, ikkinchi sonni kiriting:"));
-// let son3 = parseInt(prompt("Iltimos, uchinchi sonni kiriting:"));
-
-// // O'sish tartibida sort qilish
-// let engKichikSon = Math.min(son1, son2, son3);
-// let ortaSon = son1 + son2 + son3 - engKichikSon - Math.max(son1, son2, son3);
-// let engKattaSon = Math.max(son1, son2, son3);
-
-// console.log("O'sish tartibida 3 xonali sonlar: ", engKichikSon, ortaSon, engKattaSon);
-// console.log("Eng kichik son: ", engKichikSon);
-
-
-
-//Chat gpt 5-masala Original
-
+//      5-masala 
 
 // // Foydalanuvchidan 3 xonali son olish
 // let son = prompt("Iltimos, 3 xonali son kiriting:");
